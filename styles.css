@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap');
+
+@media (min-width: 320px) and (max-width: 575px) {
+    #seccion1 h1 {
+        font-size: 66px !important;
+    }
+
+    #seccion1 h2 {
+        font-size: 17px !important;
+    }
+
+    #seccion1 .mugicaTitulo {
+        padding-top: 160px !important;
+        padding-left: 35px !important;
+    }
+
+    .nav-link {
+        margin-left: 24px !important;
+        margin-top: 5px !important;
+    }
+
+    .navbar .navbar-nav {
+        font-size: 17px !important;
+        margin-top: 174px;
+        margin-left: 25px !important;
+    }
+
+    #seccion2 td {
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    
+    #seccion1 h1 {
+        font-size: 66px !important;
+    }
+
+    #seccion1 h2 {
+        font-size: 17px !important;
+    }
+
+    #seccion1 .mugicaTitulo {
+        padding-left: 0px !important;
+        padding-top: 125px !important;
+    }
+
+    .nav-link {
+        margin-left: 24px !important;
+        margin-top: 5px !important;
+    }
+
+    .navbar .navbar-nav {
+        font-size: 24px !important;
+        margin-top: 10px;
+        margin-left: -15px !important;
+    }
+
+    #seccion2 td {
+        font-size: 18px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    #seccion1 h1 {
+        font-size: 80px !important;
+    }
+
+    #seccion1 h2 {
+        font-size: 20px !important;
+    }
+
+    #seccion1 .mugicaTitulo {
+        padding-left: 0px !important;
+        padding-top: 125px !important;
+    }
+
+    .nav-link {
+        margin-left: 24px !important;
+        margin-top: 5px !important;
+    }
+
+    .navbar .navbar-nav {
+        font-size: 31px !important;
+        margin-top: 10px;
+        margin-right: 40px !important;
+    }
+
+    #seccion2 {
+        background-image: url(img/logo.png), url(img/fondoseccion2mugica.png);
+        background-position: left 8px, center center;
+        background-repeat: no-repeat;
+        background-size: 82px, cover !important;
+        position: relative;
+    }
+
+    #seccion2 td {
+        font-size: 24px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    #seccion1 h1 {
+        font-size: 140px !important;
+    }
+
+    #seccion1 h2 {
+        font-size: 35px !important;
+    }
+
+    #seccion1 .mugicaTitulo {
+        padding-top: 90px !important;
+        padding-left: 0px !important;
+    }
+
+    .nav-link {
+        margin-left: 24px !important;
+        margin-top: 5px !important;
+    }
+
+    .navbar .navbar-nav {
+        font-size: 31px !important;
+        margin-top: 10px;
+        margin-right: 40px !important;
+    }
+
+    #seccion2 {
+        background-image: url(img/logo.png), url(img/fondoseccion2mugica.png);
+        background-position: left 8px, center center;
+        background-repeat: no-repeat;
+        background-size: 82px, cover !important;
+        position: relative;
+    }
+
+    #seccion3 h2 {
+        font-size: 36px !important;
+    }
+
+    #seccion4 h2 {
+        font-size: 36px !important;
+    }
+
+    #seccion5 h2 {
+        font-size: 36px !important;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    
+    #seccion1 h1 {
+        font-size: 180px !important;
+    }
+
+    #seccion1 h2 {
+        font-size: 45px !important;
+    }
+
+    #seccion1 .mugicaTitulo {
+        padding-top: 90px !important;
+        padding-left: 0px !important;
+    }
+
+    .nav-link {
+        margin-left: 24px !important;
+        margin-top: 5px !important;
+    }
+
+    .navbar .navbar-nav {
+        font-size: 39px !important;
+        margin-top: 10px;
+        margin-right: 40px !important;
+    }
+
+    #seccion2 {
+        background-image: url(img/logo.png), url(img/fondoseccion2mugica.png);
+        background-position: left 8px, center center;
+        background-repeat: no-repeat;
+        background-size: 82px, cover !important;
+        position: relative;
+    }
+
+    #seccion3 h2 {
+        font-size: 44px !important;
+    }
+
+    #seccion4 h2 {
+        font-size: 44px !important;
+    }
+
+    #seccion5 h2 {
+        font-size: 44px !important;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+    
+    #seccion1 h1 {
+        font-size: 186px !important;
+    }
+
+    #seccion1 h2 {
+        font-size: 47px !important;
+    }
+
+    #seccion1 .mugicaTitulo {
+        padding-top: 90px !important;
+        padding-left: 55px !important;
+    }
+
+    .nav-link {
+        margin-left: 24px !important;
+        margin-top: 5px !important;
+    }
+
+    .navbar .navbar-nav {
+        font-size: 32px !important;
+        margin-top: 10px;
+        margin-right: 40px !important;
+    }
+
+    #seccion2 td {
+        font-size: 28px !important;
+    }
+
+    #seccion2 p {
+        font-size: 14px !important;
+    }
+
+    #seccion3 h2 {
+        font-size: 52px !important;
+    }
+
+    #seccion4 h2 {
+        font-size: 52px !important;
+    }
+
+    #seccion5 h2 {
+        font-size: 52px !important;
+    }
+}
+
+@media (min-width: 1601px) and (max-width: 2000px) {
+    
+    #seccion1 h1 {
+        font-size: 200px !important;
+    }
+
+    #seccion1 h2 {
+        font-size: 51px !important;
+    }
+
+    #seccion1 .mugicaTitulo {
+        padding-top: 90px !important;
+        padding-left: 57px !important;
+    }
+
+    .nav-link {
+        margin-left: 24px !important;
+        margin-top: 5px !important;
+    }
+
+    .navbar .navbar-nav {
+        font-size: 33px !important;
+        margin-top: 10px;
+        margin-right: 40px !important;
+    }
+
+    li {
+        padding-right: 20px !important;
+    }
+
+    #seccion2 td {
+        font-size: 31px !important;
+    }
+
+    #seccion2 p {
+        font-size: 14px !important;
+    }
+
+    #seccion2 {
+        background-image: url(img/logo.png), url(img/fondoseccion2mugica.png);
+        background-position: left 8px, center center;
+        background-repeat: no-repeat;
+        background-size: 131px, cover !important;
+        position: relative;
+    }
+
+    #seccion3 h2 {
+        font-size: 52px !important;
+    }
+
+    #seccion4 h2 {
+        font-size: 52px !important;
+    }
+
+    #seccion5 h2 {
+        font-size: 52px !important;
+    }
+}
+
+@media (min-width: 1800px) {
+    #seccion2 td {
+        font-size: 36px !important;
+    }
+}
+
+
+body {
+    padding: 0% !important;
+    margin: 0% !important;
+}
+
+.navbar .navbar-nav {
+    font-family: 'Fira Sans', sans-serif;
+    color: black !important;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.nav-link {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.btn-play {
+    font-size: 3rem; /* Tamaño del botón de play */
+    color: white; /* Color del botón */
+    background: transparent;
+    border: none;
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
+form {
+    border: 3px solid black;
+}
+
+.form-control {
+    background: transparent !important;
+    border-bottom: 3px solid black;
+    border-radius: 0 !important;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+::placeholder {
+    font-family: 'Fira Sans'; /* Cambia 'Arial' por la fuente que prefieras */
+    color: black !important; /* Cambia el color del código hexadecimal por el color que prefieras */
+    opacity: 1 !important; /* Bootstrap a veces reduce la opacidad del placeholder; esto asegura que el color sea totalmente visible */
+    font-weight: 600;
+}
+
+.btn {
+    color: black;
+    font-family: 'Fira Sans';
+    font-size: 24px;
+    font-weight: 600;
+    align-items: start;
+}
+
+.modal-content {
+    background-image: url('img/logo.png'), url('img/fondoseccion5a9.png');
+    background-position: left 34px, center center;
+    background-repeat: no-repeat; 
+    background-size: 58px, cover; 
+    position: relative;
+}
+
+#seccion1 {
+    background-image: url(img/fondodepantallaseccion1.png);
+    background-size: cover !important;
+    color: black;
+}
+
+#seccion1 h1 {
+    font-size: 190px;
+    font-family: 'Fira Sans';
+    margin-bottom: -40px;
+}
+
+#seccion1 h2 {
+    font-size: 48px;
+    font-family: 'Fira Sans';
+    font-weight: 500;
+}
+
+#seccion1 .mugicaTitulo {
+    padding-left: 47px;
+}
+
+#seccion2 {
+    background-image: url('img/logo.png'), url('img/fondoseccion2mugica.png');
+    background-position: left 8px, center center;
+    background-repeat: no-repeat; 
+    background-size: 58px, cover; 
+    position: relative;
+}
+
+#seccion2 p {
+    color: black;
+    font-family: 'Fira Sans';
+    font-size: 9px;
+    font-weight: 500;
+}
+
+#seccion2 h2 {
+    background-color: transparent;
+    font-family: 'Fira Sans';
+    color: black;
+    font-weight: 800;
+}
+
+#seccion2 td {
+    background-color: transparent;
+    font-family: 'Fira Sans';
+    font-size: 24px;
+    color: black;
+    font-weight: 800;
+}
+
+#seccion2 tbody {
+    border-bottom: 3px solid black;
+}
+
+#seccion3 {
+    background-image: url(img/fondodeseccion234.png);
+    background-size: cover !important;
+}
+
+#seccion3 h2 {
+    color: black;
+    font-family: 'Fira Sans';
+    font-weight: 600;
+}
+
+#seccion3 p {
+    color: black;
+    font-family: 'Fira Sans';
+    font-style: italic;
+    font-weight: 600;
+}
+
+#seccion4 {
+    background-image: url(img/fondodeseccion234.png);
+    background-size: cover;
+}
+
+#seccion4 h2 {
+    color: black;
+    font-family: 'Fira Sans';
+    font-weight: 600;
+}
+
+#seccion4 p {
+    color: black;
+    font-family: 'Fira Sans';
+    font-style: italic;
+    font-weight: 600;
+}
+
+#seccion5 {
+    background-image: url(img/fondodeseccion234.png);
+    background-size: cover;
+}
+
+#seccion5 h2 {
+    color: black;
+    font-family: 'Fira Sans';
+    font-weight: 600;
+}
+
+#seccion5 p {
+    color: black;
+    font-family: 'Fira Sans';
+    font-style: italic;
+    font-weight: 600;
+}
+
+#seccion6 {
+    background-image: url('img/logo.png'), url('img/fondoseccion5a9.png');
+    background-position: left 34px, center center;
+    background-repeat: no-repeat; 
+    background-size: 58px, cover; 
+    position: relative;
+}
+
+#seccion6 p {
+    color: black;
+    font-family: 'Fira Sans';
+    font-size: 9px !important;
+    font-weight: 500;
+}
+
+#seccion6 h2 {
+    color: black;
+    font-family: 'Fira Sans';
+    font-weight: 900;
+}
+
+#seccion6 h3 {
+    color: black;
+    font-family: 'Fira Sans';
+    font-weight: 600;
+}
+
+#seccion7 {
+    background-image: url('img/logo.png'), url('img/fondoseccion5a9.png');
+    background-position: left 34px, center center;
+    background-repeat: no-repeat; 
+    background-size: 58px, cover; 
+    position: relative;                
+}
+
+#seccion7 h2 {
+    color: black;
+    font-family: 'Fira Sans';
+    font-weight: 800;
+}
+
+#seccion7 hr {
+    opacity: 1;
+    background-color: black;
+    height: 3px;
+}
+
+#seccion7 p {
+    color: black;
+    font-family: 'Fira Sans';
+    font-weight: 600;
+}
+
+#seccion7 .encabezado {
+    color: black;
+    font-family: 'Fira Sans';
+    font-size: 9px !important;
+    font-weight: 500;
+}
