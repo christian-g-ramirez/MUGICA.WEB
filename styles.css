@@ -146,6 +146,14 @@
         font-size: 36px !important;
     }
 
+    #seccion6 {
+        background-image: url('img/logo.png'), url('img/fondoseccion5a9.png');
+        background-position: left 34px, center center;
+        background-repeat: no-repeat; 
+        background-size: 82px, cover !important; 
+        position: relative;
+    }
+
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -193,6 +201,30 @@
     #seccion5 h2 {
         font-size: 44px !important;
     }
+
+    #seccion6 {
+        background-image: url('img/logo.png'), url('img/fondoseccion5a9.png');
+        background-position: left 34px, center center;
+        background-repeat: no-repeat; 
+        background-size: 80px, cover !important; 
+        position: relative;
+    }
+
+    #seccion6 p {
+        font-size: 11px !important;
+    }
+
+    #seccion7 {
+        background-image: url('img/logo.png'), url('img/fondoseccion5a9.png');
+        background-position: left 34px, center center;
+        background-repeat: no-repeat; 
+        background-size: 80px, cover !important; 
+        position: relative;                
+    }
+
+    #parrafHead {
+        font-size: 11px !important;
+    }
 }
 
 @media (min-width: 1400px) and (max-width: 1600px) {
@@ -223,10 +255,6 @@
 
     #seccion2 td {
         font-size: 28px !important;
-    }
-
-    #seccion2 p {
-        font-size: 14px !important;
     }
 
     #seccion3 h2 {
@@ -366,10 +394,18 @@ form {
 
 .modal-content {
     background-image: url('img/logo.png'), url('img/fondoseccion5a9.png');
-    background-position: left 34px, center center;
+    background-position: left 14px, center center;
     background-repeat: no-repeat; 
-    background-size: 58px, cover; 
+    background-size: 100px, cover; 
     position: relative;
+}
+
+.modal-header, .modal-title {
+    color: black;
+    font-size: 24px;
+    font-family: 'Fira Sans';
+    font-weight: 600;
+    margin-bottom: -15px;
 }
 
 #seccion1 {
@@ -493,13 +529,14 @@ form {
 #seccion6 p {
     color: black;
     font-family: 'Fira Sans';
-    font-size: 9px !important;
+    font-size: 9px;
     font-weight: 500;
 }
 
 #seccion6 h2 {
     color: black;
     font-family: 'Fira Sans';
+    margin-top: -20px;
     font-weight: 900;
 }
 
@@ -532,6 +569,7 @@ form {
 #seccion7 p {
     color: black;
     font-family: 'Fira Sans';
+    font-size: 24px;
     font-weight: 600;
 }
 
