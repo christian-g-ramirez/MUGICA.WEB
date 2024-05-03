@@ -28,6 +28,27 @@
     #seccion2 td {
         font-size: 14px !important;
     }
+
+    #seccion7 h2 {
+        font-size: 18px !important;
+        padding-top: 44px;
+    }
+
+    #seccion8 h2 {
+        padding-top: 44px !important;
+    }
+
+    #seccion9 h2 {
+        padding-top: 44px !important;
+    }
+
+    #seccion10 #parrafHead {
+        font-size: 9px;
+    }
+
+    #seccion10 p {
+        font-size: 14px !important;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -51,13 +72,21 @@
     }
 
     .navbar .navbar-nav {
-        font-size: 24px !important;
+        font-size: 18px !important;
         margin-top: 10px;
         margin-left: -15px !important;
     }
 
     #seccion2 td {
         font-size: 18px !important;
+    }
+
+    #seccion7 h2 {
+        font-size: 27px !important;
+    }
+
+    #parrafHead {
+        font-size: 11px !important;
     }
 }
 
@@ -82,7 +111,7 @@
     }
 
     .navbar .navbar-nav {
-        font-size: 31px !important;
+        font-size: 28px !important;
         margin-top: 10px;
         margin-right: 40px !important;
     }
@@ -97,6 +126,14 @@
 
     #seccion2 td {
         font-size: 24px !important;
+    }
+
+    #seccion7 h2 {
+        font-size: 34px !important;
+    }
+
+    #parrafHead {
+        font-size: 11px !important;
     }
 }
 
@@ -154,6 +191,14 @@
         position: relative;
     }
 
+    #seccion7 h2 {
+        font-size: 34px !important;
+    }
+
+    #parrafHead {
+        font-size: 11px !important;
+    }
+
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -177,7 +222,7 @@
     }
 
     .navbar .navbar-nav {
-        font-size: 39px !important;
+        font-size: 30px !important;
         margin-top: 10px;
         margin-right: 40px !important;
     }
@@ -214,7 +259,23 @@
         font-size: 11px !important;
     }
 
-    #seccion7 {
+    #seccion8 {
+        background-image: url('img/logo.png'), url('img/fondoseccion5a9.png');
+        background-position: left 34px, center center;
+        background-repeat: no-repeat; 
+        background-size: 80px, cover !important; 
+        position: relative;                
+    }
+
+    #seccion9 {
+        background-image: url('img/logo.png'), url('img/fondoseccion5a9.png');
+        background-position: left 34px, center center;
+        background-repeat: no-repeat; 
+        background-size: 80px, cover !important; 
+        position: relative;                
+    }
+
+    #seccion10 {
         background-image: url('img/logo.png'), url('img/fondoseccion5a9.png');
         background-position: left 34px, center center;
         background-repeat: no-repeat; 
@@ -224,6 +285,18 @@
 
     #parrafHead {
         font-size: 11px !important;
+    }
+
+    #seccion8 h2 {
+        font-size: 37px !important;
+    }
+    
+    #seccion9 h2 {
+        font-size: 37px !important;
+    }
+    
+    #seccion7 h2 {
+        font-size: 37px !important;
     }
 }
 
@@ -267,6 +340,26 @@
 
     #seccion5 h2 {
         font-size: 52px !important;
+    }
+
+    #parrafHead {
+        font-size: 14px !important;
+    }
+
+    #seccion2 p {
+        font-size: 14px !important;
+    }
+
+    #seccion2 h2 {
+        font-size: 42px !important;
+    }
+
+    #seccion6 p {
+        font-size: 14px !important;
+    }
+
+    #seccion6 h2 {
+        font-size: 42px !important;
     }
 }
 
@@ -326,6 +419,26 @@
 
     #seccion5 h2 {
         font-size: 52px !important;
+    }
+
+    #seccion2 h2 {
+        font-size: 45px !important;
+    }
+
+    #seccion2 p {
+        font-size: 18px !important;
+    }
+
+    #seccion6 h2 {
+        font-size: 45px !important;
+    }
+
+    #seccion6 p {
+        font-size: 18px !important;
+    }
+
+    #parrafHead {
+        font-size: 18px !important;
     }
 }
 
@@ -547,6 +660,28 @@ form {
 }
 
 #seccion7 {
+    background-image: url(img/logo.png), url(img/fondoseccion2mugica.png);
+    background-position: left 8px, center center;
+    background-repeat: no-repeat;
+    background-size: 82px, cover !important;
+    position: relative;
+}
+
+#seccion7 h2 {
+    color: black;
+    font-size: 52px;
+    font-family: 'Fira Sans';
+    font-weight: 600;
+}
+
+#seccion7 p {
+    color: black;
+    font-family: 'Fira Sans';
+    font-style: italic;
+    font-weight: 600;
+}
+
+#seccion8 {
     background-image: url('img/logo.png'), url('img/fondoseccion5a9.png');
     background-position: left 34px, center center;
     background-repeat: no-repeat; 
@@ -554,26 +689,84 @@ form {
     position: relative;                
 }
 
-#seccion7 h2 {
+#seccion8 h2 {
     color: black;
     font-family: 'Fira Sans';
     font-weight: 800;
 }
 
-#seccion7 hr {
+#seccion8 p {
+    color: black;
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#seccion8 img {
+    border: 2px solid black;
+}
+
+#seccion9 {
+    background-image: url('img/logo.png'), url('img/fondoseccion5a9.png');
+    background-position: left 34px, center center;
+    background-repeat: no-repeat; 
+    background-size: 58px, cover; 
+    position: relative;                
+}
+
+#seccion9 h2 {
+    color: black;
+    font-family: 'Fira Sans';
+    font-weight: 800;
+}
+
+#seccion9 p {
+    color: black;
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#seccion9 img {
+    border: 2px solid black;
+}
+
+#seccion10 {
+    background-image: url('img/logo.png'), url('img/fondoseccion5a9.png');
+    background-position: left 34px, center center;
+    background-repeat: no-repeat; 
+    background-size: 58px, cover; 
+    position: relative;                
+}
+
+#seccion10 {
+    background-image: url('img/logo.png'), url('img/fondoseccion5a9.png');
+    background-position: left 34px, center center;
+    background-repeat: no-repeat; 
+    background-size: 58px, cover; 
+    position: relative;                
+}
+
+#seccion10 h2 {
+    color: black;
+    font-family: 'Fira Sans';
+    font-weight: 800;
+}
+
+#seccion10 hr {
     opacity: 1;
     background-color: black;
     height: 3px;
 }
 
-#seccion7 p {
+#seccion10 p {
     color: black;
     font-family: 'Fira Sans';
     font-size: 24px;
     font-weight: 600;
 }
 
-#seccion7 .encabezado {
+#seccion10 .encabezado {
     color: black;
     font-family: 'Fira Sans';
     font-size: 9px !important;
